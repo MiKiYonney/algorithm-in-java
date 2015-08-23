@@ -1,4 +1,4 @@
-package com.insert;
+package sort.insert;
 
 /**
  * 希尔排序

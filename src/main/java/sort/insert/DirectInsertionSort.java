@@ -1,4 +1,4 @@
-package com.insert;
+package sort.insert;
 
 /**
  * 直接插入排序

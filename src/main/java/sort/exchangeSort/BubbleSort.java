@@ -1,4 +1,4 @@
-package exchangeSort;
+package sort.exchangeSort;
 
 /**
  * 冒泡排序

@@ -1,4 +1,4 @@
-package chooseSort;
+package sort.chooseSort;
 
 /**
  * 简单选择排序

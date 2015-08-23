@@ -1,11 +1,11 @@
-package exchangeSort;
+package sort.exchangeSort;
 
 /**
  * 快速排序
  * 不稳定 O(nlogN)
  * Created by yonney on 2015/7/22.
  */
-public class QuickSort {
+public class QuickSort1 {
     public void quickSortPartition(int data[], int low, int high) {
         int i, j;
         if (low < high) {
