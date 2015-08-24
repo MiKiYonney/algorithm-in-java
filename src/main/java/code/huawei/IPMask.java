@@ -16,6 +16,6 @@ public class IPMask {
     }
 
     public static boolean validateInput(String str){
-
+        return true;
     }
 }
