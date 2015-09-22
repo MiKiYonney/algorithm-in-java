@@ -25,8 +25,16 @@ public class TreeNodeVisit {
         stack.push(root);
         Node<Integer> current = null;
         while (!stack.isEmpty()){
-
+            current = stack.pop();
+            System.out.println(current.getValue());
+            if (current.getRight()!=null){
+                stack.push(current.getRight());
+            }
+            if (current.getLeft()!=null){
+                stack.push(current.getLeft());
+            }
         }
+        System.out.println();
     }
 
     //中序遍历-递归
